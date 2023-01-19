@@ -5,7 +5,27 @@ body{
     flex-direction: column;
     min-height: auto;
 }
-    
+
 .container{
     display: flex;
 }
+
+.headbar{
+    display: flex;
+    background-color: #1f2937;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+  }
