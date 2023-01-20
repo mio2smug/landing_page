@@ -110,3 +110,44 @@ ul {
 
 }
 
+.container-3{
+  padding: 50px 230px 75px 340px;
+  background-color: #e5e7eb;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+
+.container-4{
+  background-color: white;  
+  padding: 5em 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-4-subcontainer{
+  display: flex;
+  padding: 3em;
+  align-items: center;
+  background-color: #3882f6;
+  border: 3px solid #3882f6;
+  border-radius: 20px;
+}
+
+.container-4-subcontainer-text{
+  color: white;  
+}
+
+.container-5{
+  background-color: #1f2937;  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+  color: #E5E7EB;
+}
