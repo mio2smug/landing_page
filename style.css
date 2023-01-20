@@ -26,7 +26,7 @@ body{
     color: #F9FAF8;
     justify-content: center;
     align-items: center;
-    padding: 0px 210px;
+    padding: 0px 0px 0px 210px;
     flex-wrap: wrap;
 }
 .subtext{
@@ -77,3 +77,36 @@ ul {
     justify-content: flex-start;
     flex-direction: row;
   }
+
+  .container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+  }
+
+  #container-2-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 50px 0 10px 37%;
+  }
+
+.image-container-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+#kyaruarrest{
+  height: 100px;
+  width: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 20px;
+
+}
+
